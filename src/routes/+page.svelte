@@ -24,7 +24,9 @@
           ^Y#@@@@@@@@@@@@@@@@@@B?.      &@@@@@@@@@@@@@@@@@@@@@@@@@G  :@@@@@@@@@@@.         7@@@@@@@@@@@
               :!J5GB####BG5?~.          ~777777777777777777777777?^   77777777777          7@@@@@@@@@@@ </pre>
 		<div class="about">
-			<div class="line"><span class="title">CrazyLittleHorse@Yury_Zotov</span></div>
+			<div class="line">
+				<span class="title">CrazyLittleHorse<span class="value">@</span>Yury_Zotov</span>
+			</div>
 			<div class="line"><span class="value">---------------------------</span></div>
 			<div class="line">
 				<span class="title">Github</span><span class="title-sep"> : </span>
@@ -38,7 +40,12 @@
 			</div>
 			<div class="line">
 				<span class="title">Discord</span><span class="title-sep"> : </span>
-				<span class="value">CrazyLittleHorse#6812</span>
+				<a
+					target="_blank"
+					class="discord"
+					href="https://discord.com/users/149864113172905984"
+					rel="noreferrer"><span class="value">CrazyLittleHorse#6812</span></a
+				>
 			</div>
 			<div class="line">
 				<span class="title">Type</span><span class="title-sep"> : </span>
@@ -98,6 +105,10 @@
 	.arrow {
 		color: #6d90db;
 		font-size: 1rem;
+	}
+
+	.discord {
+		text-decoration: none;
 	}
 
 	.tilde {
