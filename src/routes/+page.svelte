@@ -147,6 +147,7 @@
 	}
 
 	.ascii-logo {
+		font-size: clamp(0.5rem, 1.5vw, 1rem);
 		color: #61d6d6;
 	}
 
